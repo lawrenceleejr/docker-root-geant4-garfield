@@ -5,10 +5,10 @@ ARG GARFIELD_VERSION
 
 FROM ubuntu:22.04
 
-LABEL maintainer.name="Luis Antonio Obis Aparicio"
-LABEL maintainer.email="luis.antonio.obis@gmail.com"
+LABEL maintainer.name="lawrenceleejr"
+LABEL maintainer.email="7438278+lawrenceleejr@users.noreply.github.com"
 
-LABEL org.opencontainers.image.source="https://github.com/lobis/docker-root-geant4-garfield"
+LABEL org.opencontainers.image.source="https://github.com/lawrenceleejr/docker-root-geant4-garfield"
 
 ARG APPS_DIR=/usr/local
 

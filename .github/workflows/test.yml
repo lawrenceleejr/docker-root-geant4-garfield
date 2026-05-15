@@ -17,7 +17,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/lobis/root-geant4-garfield${{ github.event.inputs.tag }}
+      image: ghcr.io/lawrenceleejr/root-geant4-garfield${{ github.event.inputs.tag }}
 
     steps:
       - name: Print dependencies version

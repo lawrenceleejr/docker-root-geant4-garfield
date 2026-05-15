@@ -3,7 +3,7 @@ ARG ROOT_VERSION
 ARG GEANT4_VERSION
 ARG GARFIELD_VERSION
 
-FROM ghcr.io/lobis/root-geant4-garfield-dev:cpp${CMAKE_CXX_STANDARD}_ROOT-${ROOT_VERSION}_Geant4-${GEANT4_VERSION}_Garfield-${GARFIELD_VERSION}
+FROM ghcr.io/lawrenceleejr/root-geant4-garfield-dev:cpp${CMAKE_CXX_STANDARD}_ROOT-${ROOT_VERSION}_Geant4-${GEANT4_VERSION}_Garfield-${GARFIELD_VERSION}
 
 ENV REST_PATH /usr/local/rest-for-physics
 

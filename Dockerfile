@@ -6,7 +6,7 @@ ARG GARFIELD_VERSION
 FROM ubuntu:22.04
 
 LABEL maintainer.name="lawrenceleejr"
-LABEL maintainer.email="noreply@github.com"
+LABEL maintainer.email="7438278+lawrenceleejr@users.noreply.github.com"
 
 LABEL org.opencontainers.image.source="https://github.com/lawrenceleejr/docker-root-geant4-garfield"
 

@@ -54,8 +54,8 @@ RUN chsh -s $(which zsh)
 RUN apt-get update && apt-get install -y emacs
 
 # Install my dotfiles
-RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/lobis/dotfiles/main/install.sh)"
-RUN echo "source /rest/install/thisREST.sh" >> ~/.zshrc
+# RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/lobis/dotfiles/main/install.sh)"
+# RUN echo "source /rest/install/thisREST.sh" >> ~/.zshrc
 
 # Add Tini
 ENV TINI_VERSION v0.19.0

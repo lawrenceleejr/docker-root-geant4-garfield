@@ -50,8 +50,8 @@ RUN yes ${PASSWORD} | passwd
 # use zsh as default shell
 RUN chsh -s $(which zsh)
 
-# install neovim
-RUN wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.deb && apt-get install -y ./nvim-linux64.deb && rm ./nvim-linux64.deb
+# install emacs
+RUN apt-get update && apt-get install -y emacs
 
 # Install my dotfiles
 RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/lobis/dotfiles/main/install.sh)"
